@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<title>Title</title>
+		<title>ERD Model</title>
 	</head>
 	<body>
 		<img src="shipping-address.png" alt="erd model">
