@@ -13,3 +13,8 @@ li {
 	font-size: 3em;
 	text-align: center;
 }
+
+.my-item {
+	margin-top: 10px;
+	padding: 5px;
+}
