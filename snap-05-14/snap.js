@@ -191,12 +191,12 @@ var people = [{
 }];
 
 people.forEach(function(person) {
-		console.log(person.company);
-		//Delete the company index from each person.
-		delete person.company;
+	console.log(person.company);
+	//Delete the company index from each person.
+	delete person.company;
 
-		console.log(person.company);
-	});
+	console.log(person.company);
+});
 
 //Expected output: list of people without companies.
 console.log(people);
