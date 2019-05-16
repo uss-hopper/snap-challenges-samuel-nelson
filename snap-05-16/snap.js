@@ -190,15 +190,11 @@ var data= [{
 	}
 }]
 
+data.forEach(function(data){ delete data.address });
+
 // pass a function to map
-const map1 = data.map;
+const map1 = data.map();
 
-var words = ["address"];
-
-const result = words.filter(word => word > "address");
-
-console.log(result);
-// expected output: Array ["exuberant", "destruction", "present"]
 
 console.log(map1);
 // expected output: Array [2, 8, 18, 32]
