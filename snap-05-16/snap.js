@@ -191,11 +191,11 @@ var data= [{
 }]
 
 // pass a function to map
-const map1 = data.map(x => x * 2);
+const map1 = data.map;
 
 var words = ["address"];
 
-const result = words.filter(word => word.content = "address");
+const result = words.filter(word => word > "address");
 
 console.log(result);
 // expected output: Array ["exuberant", "destruction", "present"]
