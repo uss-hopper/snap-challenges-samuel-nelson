@@ -190,11 +190,19 @@ var data= [{
 	}
 }]
 
-data.forEach(function(data){ delete data.address });
+users.forEach((user) => {
+	const {id, address, email, name, phone, username, website} = user;
+	bestApproach.push({id, address, email, name, phone, username, website});
+});
 
-// pass a function to map
-const map1 = data.map();
+function removeAddress() {
+	const mapApproach = users.map((users) => {
+		delete users.address;
+		return users;
+	});
+	console.table(mapApproach);
+}
+removeAddress();
 
-
-console.log(map1);
-// expected output: Array [2, 8, 18, 32]
+console.log("best approach");
+console.table(bestApproach);
