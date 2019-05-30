@@ -1,0 +1,20 @@
+array1 = ["a", "b", "c", "d", "e", "f", "g", "h", "i"]
+
+function remover(array1) {
+	if not "a", "e", "i", "o", "u"
+	return value
+}
+
+array2 = [2, 54, 23, 765]
+
+function highNum(array2) {
+	if i < x
+		return "High number is 'i'"
+	else i ++
+}
+
+function fib() {
+	if numbcount is > 100
+	take i + previous number
+	add to numbcount;
+}
